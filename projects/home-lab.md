@@ -7,7 +7,7 @@ Build a safe, isolated environment to practice IT support tasks using virtual ma
 - **Host OS**: Windows 10/11
 - **Virtualization**: VirtualBox
 - **VMs**:
-  - Windows 10 VM
+  - Windows 11 Home Edition
   - Ubuntu 22.04 LTS VM
 - **Networking**:
   - NAT for internet access
@@ -15,7 +15,7 @@ Build a safe, isolated environment to practice IT support tasks using virtual ma
 
 ## 🛠️ Steps Taken
 1. Installed VirtualBox and created two VMs.
-2. Installed Windows 10 and Ubuntu on separate VMs.
+2. Installed Windows 11 and Ubuntu on separate VMs.
 3. Configured NAT and Host-Only adapters for each VM.
 4. Created standard user accounts and enabled RDP (Windows) and SSH (Ubuntu).
 5. Took snapshots at key stages: baseline, post-update, post-software install.
