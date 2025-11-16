@@ -1,0 +1,23 @@
+# 🧑‍💻 Help Desk Simulation: Folder Access Request
+
+**Issue:**  
+User `TestUser1` reports they cannot access or modify files in `C:\TestFolder`.
+
+**Environment:**  
+- Windows 11 Home (VirtualBox VM)  
+- `TestUser1` is a local standard user  
+- Folder: `C:\TestFolder` created by admin account
+
+**Steps Taken:**
+1. Logged in as admin (`Sukhvir Brar`)
+2. Navigated to `C:\TestFolder` → Right-click → Properties → Security tab
+3. Clicked **Edit** → **Add** → entered `TestUser1` → clicked **Check Names** → OK
+4. Selected `TestUser1` in the list → granted **Modify** and **Read & Execute** permissions
+5. Clicked **Apply** → **OK**
+6. Logged in as `TestUser1` to verify access
+
+**Outcome:**  
+`TestUser1` can now open, edit, and save files in `C:\TestFolder` without errors.
+
+**Resolution Status:**  
+✅ Resolved — folder access granted successfully
