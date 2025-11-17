@@ -1,0 +1,51 @@
+# 🧑‍💻 Help Desk Simulation: Printer Not Responding
+
+**Issue:**  
+User `TestUser1` reports that the printer is visible in Devices but does not print. No error messages appear, but print jobs remain stuck in the queue.
+
+**Environment:**  
+- Windows 11 Home (VirtualBox VM)  
+- Printer: Simulated using `Microsoft XPS Document Writer`  
+- User: `TestUser1` (local standard account)
+
+---
+
+## 🔧 Troubleshooting Steps
+
+1. **Verified Printer Status**
+   - Navigated to **Settings → Bluetooth & devices → Printers & scanners**
+   - Confirmed `TestPrinter1` was listed but marked as **Offline**
+
+2. **Restarted Print Spooler Service**
+   - Opened `services.msc`
+   - Located **Print Spooler** → Right-click → **Restart**
+
+3. **Cleared Print Queue**
+   - Opened **Control Panel → Devices and Printers**
+   - Right-clicked `TestPrinter1` → **See what’s printing**
+   - Canceled all pending jobs
+
+4. **Simulated Driver Issue**
+   - Opened **Device Manager**
+   - Uninstalled `TestPrinter1` from the **Printers** section
+   - Rebooted VM to simulate driver reinstall
+
+5. **Tested Print Functionality**
+   - Opened **Notepad**
+   - Typed a test message → File → Print → Selected `TestPrinter1`
+   - Print job completed successfully
+
+---
+
+## ✅ Outcome
+
+Printer resumed normal operation. User confirmed ability to print from Notepad. Issue resolved by restarting spooler and reinstalling printer driver.
+
+**Resolution Status:**  
+✅ Resolved — spooler restarted, queue cleared, and driver reinstalled
+
+
+
+
+
+
