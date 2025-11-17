@@ -1,6 +1,5 @@
-# Sukhvir Brar — Entry-Level IT Portfolio
+Welcome! I'm Sukhvir Brar, a CompTIA A+ certified technician transitioning into IT support with a strong foundation in system troubleshooting, user account management, and network diagnostics. This portfolio showcases my hands-on learning journey, real-world simulations, and commitment to solving problems with precision and care.
 
-Welcome! I'm a CompTIA A+ certified technician with a passion for IT support, system troubleshooting, and network solutions. This portfolio showcases my hands-on projects, learning journey, and commitment to problem-solving.
 
 ## 🔧 Projects
 
@@ -27,3 +26,5 @@ Welcome! I'm a CompTIA A+ certified technician with a passion for IT support, sy
 - Location: Fresno/Kerman, CA  
 - Email: Sukhvirsingh07@comcast.net  
 - Portfolio: This GitHub page (keep checking back for new projects!)
+
+
